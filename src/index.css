@@ -1,0 +1,117 @@
+
+
+body{
+    background-image: url('./assets/iron.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.titulo{
+    font-size: 50px;
+    color: white;
+    margin: 40px auto;
+    text-align: center;
+}
+
+
+
+p{
+    cursor: pointer;
+    margin: 0px;
+}
+
+
+.list-group-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+
+.complete{
+    text-decoration: line-through;
+    color: gray; 
+}
+
+
+.agregar{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.input{
+    width: 70%;
+    background: transparent;
+    color: #fff;
+}
+
+
+
+.input:focus{
+    background: transparent;
+    color: #fff;
+}
+
+
+
+.boton{
+    width: 20%;
+    padding: 10px;
+    /* font-size: 80%; */
+}
+
+
+.lista{
+    width: 80%;
+    margin: 40px auto;
+}
+
+
+.lista li{
+    background: transparent;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+@media screen and (max-width: 680px){
+
+    body{
+        background-image: url('./assets/cap2.jpg');
+        background-position: top;
+        background-attachment: fixed;
+        object-fit: cover;
+    }
+
+    .input::placeholder{
+        color: #fff;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 500px){
+
+    .boton{
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    .lista li{
+        font-size: 20px;
+    }
+
+    .titulo{
+        font-size: 35px;
+    }
+}
